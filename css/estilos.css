@@ -81,3 +81,34 @@ header{
 .link:hover{
     color: #fff;
 }
+
+.contenedor_servicios{
+    width: 80%;
+    margin: auto;
+}
+.titulo_servicios{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.detalles{
+    margin: 15px;
+}
+.detalles_titulo{
+    padding:10px 0;
+}
+.detalles_item{
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 50%;
+    color: black;
+}
+.detalles_titulo{
+    color: #a18cd1;
+}
+.detalles_texto{
+    font-size: 15px;
+}
