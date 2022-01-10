@@ -6,3 +6,77 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(217, 175, 217, 0.445) 0%, rgba(151, 218, 225, 0.473) 100%), url(../img/marcoAurelio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header_contenedor{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.icon_menu{
+    display: inline;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left:  85%;
+    width: 40px;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 0px;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+.contenedor_frase{
+   position: absolute;
+   width: 100%;
+   top:70%;
+   left: 0;
+   
+}
+.frase{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navegacion{
+    position: relative;
+    margin-top: 20px;
+    margin-left:  -55%;
+    width: 200px;
+    height: 80vh;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    z-index: 9999;
+    transition:ease all 0.5s;
+}
+.mostrar_menu{
+    margin-left:  55%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links li{
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.link:hover{
+    color: #fff;
+}
