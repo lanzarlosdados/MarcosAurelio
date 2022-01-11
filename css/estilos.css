@@ -86,7 +86,8 @@ header{
     width: 80%;
     margin: auto;
 }
-.titulo_servicios{
+.titulo_servicios,
+.meditaciones_titulo {
     text-align: center;
     padding: 15px;
     font-size: 30px;
@@ -111,4 +112,20 @@ header{
 }
 .detalles_texto{
     font-size: 15px;
+}
+.meditaciones{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+}
+.contenedor_meditaciones{
+    width: 90%;
+    margin: auto;
+}
+.img_meditaciones{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
 }
