@@ -135,9 +135,14 @@ header{
     top: 0%;
     left: 0;
     width: 100%;
-    height: 100vh;
+    margin: auto;
+    height: 100%;
     z-index: 9999;
     background:rgba(0, 0, 0, .5)  ;
+    display: none;
+}
+.mostra_img_zoom{
+    display: block;
 }
 .icon_close{
     display: block;
@@ -150,7 +155,7 @@ header{
     margin-left: 10px;
 }
 .contenedor_img_zoom{
-    width: 400px;
+    width: 90%;
     height: 400px;
     margin: auto;
     margin-top: 100px;
@@ -159,7 +164,6 @@ header{
 .img_zoom{
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
